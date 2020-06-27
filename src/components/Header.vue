@@ -5,7 +5,7 @@
       <h1 class="header-logo">estra inc.</h1>
       <nav class="header-nav">
         <ul>
-          <li><a href="#">home</a></li>
+          <li v-on:click="clickHome"><a href="#">home</a></li>
           <li><a href="#">about</a></li>
           <li><a href="#">service</a></li>
           <li><a href="#">works</a></li>
@@ -18,10 +18,26 @@
     
 </div>  
 </template>
+<script>
+export default {
+  methods:{
+    clickHome() {
+      alert('homeページへ行きます')
+      this.$router.push('/')
+    },
+    clickAbout () {
+      alert('aboutページへ行きます')
+      this.$router.push('/About')
+    },
+  }
+}
+</script>
+
 <style scoped>
 header {
   height: 70px;
-  background: #000
+  background: #000;
+  display: flex;
 }
 .header-logo {
   font-size: 20px;
@@ -34,9 +50,12 @@ header {
   display: inline-block;
   margin-left: 35px;
   font-size: 16px;
+  display: flex;
 }
 .header-nav a{
-  color: #fff;
+  color: red;
+  cursor: pointer;
+  z-index: 100;
 }
 @media screen and (max-width: 768px){
   .header-nav {

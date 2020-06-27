@@ -24,7 +24,7 @@
       <h2 class="section-title">about</h2>
       <div class="flex around">
             <div class="about-left">
-              <img src="img/billy-huynh-W8KTS-mhFUE-unsplash.jpg" alt="">
+              <img src="../assets/billy-huynh-W8KTS-mhFUE-unsplash.jpg" alt="">
             </div>
             <div class="about-right">
               <h3>eatra inc.</h3>
@@ -44,17 +44,17 @@
     <h2 class="section-title">sevice</h2>
     <div class="flex around busuness-wrap">
       <div class="business-cat">
-        <img src="img/billy-huynh-W8KTS-mhFUE-unsplash.jpg" alt="">
+        <img src="../assets/billy-huynh-W8KTS-mhFUE-unsplash.jpg" alt="">
         <h3>ビジネスA</h3>
         <p>ビジネスの説明が入ります。ビジネスの説明が入りま す。ビジネスの説明が入ります。ビジネスの説明が入ります</p>
       </div>
       <div class="business-cat">
-        <img src="img/billy-huynh-W8KTS-mhFUE-unsplash.jpg" alt="">
+        <img src="../assets/billy-huynh-W8KTS-mhFUE-unsplash.jpg" alt="">
         <h3>ビジネスB</h3>
         <p>ビジネスの説明が入ります。ビジネスの説明が入りま す。ビジネスの説明が入ります。ビジネスの説明が入ります</p>
       </div>
       <div class="business-cat">
-        <img src="img/billy-huynh-W8KTS-mhFUE-unsplash.jpg" alt="">
+        <img src="../assets/billy-huynh-W8KTS-mhFUE-unsplash.jpg" alt="">
         <h3>ビジネスC</h3>
         <p>>ビジネスの説明が入ります。ビジネスの説明が入りま す。ビジネスの説明が入ります。ビジネスの説明が入ります。 </p>
       </div>
@@ -175,7 +175,7 @@
 }
 #eyecatch {
     height: 600px;
-    background: url("../img/billy-huynh-W8KTS-mhFUE-unsplash.jpg") no-repeat;
+    background: url(../assets/billy-huynh-W8KTS-mhFUE-unsplash.jpg) no-repeat;
     background-size: cover;
     background-position: center;
     position: relative;
@@ -205,7 +205,7 @@
 }
 
 #business {
-    background: url(../img/billy-huynh-W8KTS-mhFUE-unsplash.jpg)no-repeat;
+    background: url(../assets/billy-huynh-W8KTS-mhFUE-unsplash.jpg)no-repeat;
     background-size: cover;
 }
 #business .section-title {
