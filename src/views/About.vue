@@ -5,16 +5,18 @@
     <h2 class="section-title">about</h2>
     <div class="flex">
     <div class="about-left">
-      <img src="../assets/bg2.jpg" alt="">
+      <img src="../assets/billy-huynh-W8KTS-mhFUE-unsplash.jpg" alt="">
     </div>
     <div class="about-right">
       <h3>estra inc.</h3>
-      <p>私たちestra incは、お客様の満足度を徹底的に追及するこ とで、お客様・市場・時代のニーズを的確に捉え、事業の拡大と周 辺ビジネスによる差別化、業界における圧倒的な地位の確立を図る べく積極的な事業活動を行っています。</p>
+      <p>私たちestra incは、お客様の満足度を徹底的に追及することで、お客様・市場・時代のニーズを的確に捉え、事業の拡大と周 辺ビジネスによる差別化、業界における圧倒的な地位の確立を図る べく積極的な事業活動を行っています。</p>
       <ol>
         <li>コーチング事業</li>
         <li>プログラミング事業</li>
         <li>SaaS事業</li>
       </ol>
+      </div>
+      </div>
     </div>
   </div>
   </div>
