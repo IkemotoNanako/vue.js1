@@ -5,14 +5,19 @@
       <h1 class="header-logo">estra inc.</h1>
       <nav class="header-nav">
         <ul>
-          <li v-on:click="clickHome"><a href="#">home</a></li>
-          <li><a href="#">about</a></li>
-          <li><a href="#">service</a></li>
-          <li><a href="#">works</a></li>
-          <li><a href="#">price</a></li>
-          <li><a href="#">contact</a></li>
+          <li v-on:click="clickHome()"><a href="#">home</a></li>
+          <li @click="clickAbout()"><a href="#">about</a></li>
+          <li @click="clickService()"><a href="#">service</a></li>
+          <li @click="clickWork()">><a href="#">works</a></li>
+          <li @click="clickPrice()"><a href="#">price</a></li>
+          <li @click="clickContact()"><a href="#">contact</a></li>
         </ul>
       </nav>
+    </div>
+    <div id="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
     </div>
   </header>
     
@@ -29,6 +34,21 @@ export default {
       alert('aboutページへ行きます')
       this.$router.push('/About')
     },
+    clickService() {
+      alert('service')
+      this.$router.push('/Service')
+    },
+    clickWork() {
+      alert('work')
+    },
+    clickPrice() {
+      alert('price')
+    },
+    clickContact() {
+      alert('contact')
+      this.$router.push('/Contact')
+    }
+
   }
 }
 </script>
@@ -37,25 +57,21 @@ export default {
 header {
   height: 70px;
   background: #000;
-  display: flex;
 }
 .header-logo {
   font-size: 20px;
   font-weight: bold;
   margin-left: 35px;
-  color: #fff;
+  color: #f2f2f2;
   line-height: 70px;
 }
-.header-nav{
+.header-nav li{
   display: inline-block;
   margin-left: 35px;
   font-size: 16px;
-  display: flex;
 }
 .header-nav a{
-  color: red;
-  cursor: pointer;
-  z-index: 100;
+  color: #f2f2f2;
 }
 @media screen and (max-width: 768px){
   .header-nav {
@@ -68,6 +84,7 @@ header {
     cursor: pointer;
     z-index: 100;
     top: 15px;
+    right: 20px;
     transition: .4s;
   }
   #hamburger span {
