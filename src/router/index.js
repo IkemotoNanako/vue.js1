@@ -2,13 +2,14 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 import About from '../views/RouterLink.vue'
-
+import Service from '../views/Service.vue'
+import Contact from '../views/Contact.vue'
 Vue.use(VueRouter)
 
   const routes = [
   {
     path: '/',
-    name: 'Home',
+    name: 'home',
     component: Home
   },
   {
@@ -19,6 +20,17 @@ Vue.use(VueRouter)
     // which is lazy-loaded when the route is visited.
     component:About/* webpackChunkName: "about" */ 
   },
+  {
+  path: '/service',
+  name: 'service',
+  component:Service
+},
+{
+  path: '/contact',
+  name: 'contact',
+  component:Contact
+}
+
 ]
 
 

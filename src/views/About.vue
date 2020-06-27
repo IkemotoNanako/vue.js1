@@ -1,4 +1,5 @@
 <template>
+<div>
   <div class="box">
     <div id="about" class="wrap">
     <h2 class="section-title">about</h2>
@@ -15,6 +16,7 @@
         <li>SaaS事業</li>
       </ol>
     </div>
+  </div>
   </div>
 </template>
  <style scoped>
